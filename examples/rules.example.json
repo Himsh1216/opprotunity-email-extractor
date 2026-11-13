@@ -1,0 +1,21 @@
+{
+  "_comment": "Copy to rules.json in the tool folder (the guided mode loads it automatically) or pass --config. Keys starting with _ are ignored. See docs/06-how-it-works.md.",
+
+  "_comment_extra_opportunity_keywords": "A subject containing any of these scores +7 (enough for the share sheet on its own).",
+  "extra_opportunity_keywords": ["research internship", "summer undergraduate research", "case competition"],
+
+  "_comment_extra_ignore_keywords": "A subject containing any of these scores -10.",
+  "extra_ignore_keywords": ["lost and found", "mess committee"],
+
+  "_comment_pitch_domains": "Sender domains of paid 'training & internship' programmes that keep reaching students.",
+  "pitch_domains": ["spammy-internships.example"],
+
+  "_comment_campus_keywords": "Subject words that make a mail from your own institution campus-only (fest names, internal events).",
+  "campus_keywords": ["Spring Fest", "Annual Day"],
+
+  "_comment_placement_senders": "Exact addresses of your placement cell, if the built-in patterns (cdc, tpo, tnp, placement, career...) miss them.",
+  "placement_senders": ["tnp@mycollege.example.edu"],
+
+  "_comment_share_placement_cell": "false keeps your placement cell's own notices out of the share file.",
+  "share_placement_cell": true
+}

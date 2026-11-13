@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Results - never commit them
+output/
+*.xlsx
+*.csv
+
+# Real mail - never commit it (the made-up sample is the only exception)
+*.mbox
+!examples/sample_mailbox.mbox
+*.mbx
+*.eml
+*.pst
+takeout-*.zip
+Takeout/
+
+# OS clutter
+.DS_Store
+Thumbs.db
